@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { generateFakeTasks, generateTaskId } from 'src/utils/helpers';
-import { Task, Tasks } from './types';
+import { Task, Tasks } from './tasks.dto';
 
 @Injectable()
 export class TasksService {

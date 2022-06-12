@@ -1,6 +1,6 @@
 import uniqid from 'uniqid';
 import { faker } from '@faker-js/faker';
-import { Tasks } from 'src/tasks/types';
+import { Tasks } from 'src/tasks/tasks.dto';
 
 export const generateTaskId = (): any => uniqid('Task-');
 
